@@ -1,5 +1,5 @@
 import entradaDados from "readline-sync";
-import listaDeFrutas from "./dados/dados.js"
+import listaDeFrutas from "./dados.js"
 import {
     validarLetraDigitada,
     verificarJogoGanho,
@@ -7,7 +7,7 @@ import {
     jogadasRestantes,
     atualizarPalavraOculta,
     exibirMensagemFimDeJogo,
-} from "./funcoes/funcoes.js";
+} from "./funcoes";
 
 function jogarForca() { // Função principal do jogo
     
