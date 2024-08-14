@@ -7,7 +7,7 @@ import {
     jogadasRestantes,
     atualizarPalavraOculta,
     exibirMensagemFimDeJogo,
-} from "./funcoes/funcoes";
+} from "./funcoes/funcoes.js";
 
 function jogarForca() { // Função principal do jogo
     
